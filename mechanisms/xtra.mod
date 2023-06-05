@@ -3,10 +3,8 @@
 
 NEURON {
 	SUFFIX xtra
-	RANGE es : (es = max amplitude of the potential)
-	RANGE Ex,Ey,Ez
-	RANGE Dx,Dy,Dz
-	RANGE x, y, z, type, order
+	RANGE es : (es = max amplitude of the potential)	
+	RANGE x, y, z
 	GLOBAL stim : (stim = normalized waveform)
 	POINTER ex 
 }
